@@ -2,6 +2,9 @@
 
 The main idea of this project is to use small microcontrollers like `Atmega328`, `Attiny88`, `...` to extend functionality (e.g. `watchdog timer`, `volatile memory`, `RAM`, `I/O pins`, `PWM`, ...) of main master microcontrollers connected via I2C bus.
 
+<b>ATTENTION:</b> The `platformio` project is initially configured for `atmega328` microcontrollers with clocking from the built-in quartz resonator with the ability to work in `3.3v` mode.
+
+<b>ATTENTION:</b> All project settings are scattered across header files. Default i2c address is `8`. Please note that the project uses a separate interrupt pin. Note that the byte order must match on both devices.
 
 | | Feature | Code |
 |-| -------- | --- |
