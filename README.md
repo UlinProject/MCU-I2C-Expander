@@ -68,6 +68,14 @@ Commands supported by the controller, writing to commands is indicated by a lead
 | |WatchDogTrig| 161|           0 | - | 0 | + |
 | |WatchDogIsOldTrig| 162|      0 | - | 1 | + |
 
+# Demo
+
+<div>
+<img src="img/demo 0.jpg" width="200" height="200" alt="demo 0">
+<img src="img/demo 1.jpg" width="150" height="200" alt="demo 1(!)+2">
+<img src="img/demo 2.png" width="180" height="200" alt="demo 1+2(!)">
+</div>
+
 # License
 
 Copyright 2022-2023 #UlinProject Denis Kotlyarov (Денис Котляров)
